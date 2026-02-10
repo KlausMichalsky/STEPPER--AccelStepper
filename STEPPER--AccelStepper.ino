@@ -1,5 +1,5 @@
 // =======================================================================
-//             🔸 A C C E L S T E P P E R  —  O N E  T U R N 🔸
+//           🔸 A C C E L S T E P P E R  —  O N E   T U R N 🔸
 // =======================================================================
 //  Archivo    : STEPPER--AccelStepper.ino
 //  Autor      : Klaus Michalsky
@@ -14,7 +14,7 @@
 // 
 //  HARDWARE
 //  -----------------------------------------------------------------------
-//  MCU     : RP2040-Zero / (opcion para Arduino-Nano cambiando pins)
+//  MCU     : RP2040-Zero
 //  Motor   : NEMA17
 //  Driver  : TMC2209
 //
@@ -73,7 +73,7 @@ void loop() {
   }
   delay(1000);
 
-  // Motor1: volver a 0
+  // Motor1: volver a origen
   motor1.moveTo(0);
   while (motor1.distanceToGo() != 0) {
     motor1.run();
@@ -87,7 +87,7 @@ void loop() {
   }
   delay(1000);
 
-  // Motor2: volver a 0
+  // Motor2: volver a origen
   motor2.moveTo(0);
   while (motor2.distanceToGo() != 0) {
     motor2.run();
