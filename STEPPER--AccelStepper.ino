@@ -53,6 +53,9 @@ const int pasosPorVuelta  = 200 * microstepping;
 const int motor1_vueltas  = 9;
 const int motor2_vueltas  = 6;
 
+// =======================================================================
+// SETUP
+// =======================================================================
 void setup() {
   pinMode(ENABLE1, OUTPUT);
   pinMode(ENABLE2, OUTPUT);
@@ -68,6 +71,9 @@ void setup() {
   motor2.setCurrentPosition(0);
 }
 
+// =======================================================================
+// LOOP
+// =======================================================================
 void loop() {
   // Motor1: 1 vuelta adelante
   motor1.moveTo(motor1_vueltas * pasosPorVuelta);
