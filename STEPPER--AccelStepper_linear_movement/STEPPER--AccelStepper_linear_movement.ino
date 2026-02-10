@@ -1,5 +1,5 @@
 // ========================================================================
-//     🔸 A C C E L S T E P P E R  -  L I N E A R   M O V E M E N T 🔸
+//     🔸 A C C E L S T E P P E R  -  L I N E A R   M O V E M E N T 🔸 
 // ========================================================================
 //  Archivo    : STEPPER--AccelStepper_linear_movement.ino
 //  Autor      : Klaus Michalsky
